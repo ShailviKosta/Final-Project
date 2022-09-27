@@ -13,15 +13,15 @@ library(dplyr)
 
 
 #Store api keys
-api_key<- "dC8GNmNIxE5HCLAsy5Q248sdl"
-api_secret_key<- "JTBUlRHN5NSRel58ITdxm3eXKjTptxyNm418OeeCZKgDHZMxOw"
-access_token<- "1542167549231919104-ISwWZ9RR4zBL5WT6N05cyPwV6AbsgZ"
-access_secret_key<- "q1toBHKae4lICcdeSPSjCAk23tsCMYTaiocm05m48tJtZ"
+api_key<- "API_KEY"
+api_secret_key<- "API_SECRET_KEY"
+access_token<- "ACCESS_TOKEN"
+access_secret_key<- "ACCESS_SECRET_TOKEN"
 
 #authenticate via web browser
 
 token<-create_token(
-  app = "S_Practice3",
+  app = "ABC",
   consumer_key = api_key,
   consumer_secret = api_secret_key,
   access_token = access_token,
